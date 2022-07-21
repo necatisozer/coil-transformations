@@ -32,4 +32,5 @@ android {
 dependencies {
     api("io.coil-kt:coil-base:${project.coilVersion}")
     api("androidx.core:core-ktx:1.7.0")
+    implementation("com.github.android:renderscript-intrinsics-replacement-toolkit:598692ab79")
 }

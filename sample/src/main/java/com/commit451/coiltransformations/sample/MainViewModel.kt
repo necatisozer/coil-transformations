@@ -38,7 +38,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             transformation = GrayscaleTransformation()
         )
         images += Image(
-            transformation = BlurTransformation(context)
+            transformation = BlurTransformation()
         )
         images += Image(
             transformation = MaskTransformation(context, R.drawable.mask_starfish)
