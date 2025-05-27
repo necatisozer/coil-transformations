@@ -21,7 +21,7 @@ android {
         getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = true
-            proguardFiles("shrinker-rules.pro", "shrinker-rules-android.pro")
+            proguardFiles("shrinker-rules.pro", "shrinker-rules-android.pro", "okhttp-rules.pro")
             signingConfig = signingConfigs.getByName("debug")
         }
     }
